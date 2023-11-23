@@ -34,6 +34,7 @@ nav {
     justify-content: flex-end;
     gap: 10px;
     margin-right: 10vw;
+    margin-top: 12px;
 }
 
 img {
@@ -88,12 +89,15 @@ nav a {
 .text {
     color: #6BC1A3;
     font-family: Santio;
-    font-size: 0.99rem;
+    font-size: 0.89rem;
     font-style: normal;
     font-weight: 700;
-    line-height: 5rem;
+    line-height: 1.5rem;
     margin: 30vh 30vw 0 20vw;
     margin-top: 7rem;
+    flex-direction: column;
+    width: 16.625rem;
+    height: 26.063rem;
 }
 
 .text span {
@@ -105,16 +109,24 @@ nav a {
 
 .yellow,
 .pink,
-.green {
+.green,
+.blue {
     margin: auto;
     width: 25vw;
+    margin-top: 7rem
 }
-
+.pink {
+    margin-top: ;
+}
+.yellow img {
+    margin-top: -5rem;
+}
 .yellow h1 {
     color: #E7BC0E;
     font-family: Santio;
     font-size: 8.688rem;
     font-weight: 700;
+    margin-top: 1rem;
 
 }
 
@@ -134,15 +146,21 @@ nav a {
 
 }
 
+.blue p {
+    margin-top: 5rem;
+}
+
 
 .yellowtext,
 .pinktext,
-.greentext {
+.greentext,
+.bluetext {
     color: #E7BC0E;
     text-transform: uppercase;
     font-family: Santio;
     font-size: 3.138rem;
     font-weight: 700;
+    width: 40rem;
 }
 
 
