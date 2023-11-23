@@ -204,6 +204,7 @@ nav a {
     color: white;
     background-color: rgba(51, 51, 51, 0.04);
 }
+
 .smallPic img {
     width: 100%;
     height: 100%;
@@ -282,44 +283,53 @@ footer div a {
     padding: 8px 16px;
     width: fit-content;
 }
+
 span {
     background-color: rgba(0, 0, 0, 0.451);
 }
+
 .bluetext span {
     background-color: rgba(0, 0, 0, 0.476);
 }
+
 @media only screen and (max-width: 760px) {
 
     .text {
         width: 80%;
         margin: 50% auto;
-        }
-        .yellow h1,
-        .green h1,
-        .pink h1 {
-            font-size: 2.688rem;
-        }
-        .yellowtext,
-        .greentext,
-        .pinktext,
-        .bluetext {
-            font-size: 1rem;
-        }
-        .yellowtext span,
-        .greentext span,
-        .pinktext span {
-            font-size: 1rem;
-        }
-        .title {
-            font-size: 3rem;
-        }
-        .scroll {
-            font-size: 1.2rem;
-        }
-        .text {
-            font-size: 1.5rem;
-        }
-        
+    }
+
+    .yellow h1,
+    .green h1,
+    .pink h1 {
+        font-size: 2.688rem;
+    }
+
+    .yellowtext,
+    .greentext,
+    .pinktext,
+    .bluetext {
+        font-size: 1rem;
+    }
+
+    .yellowtext span,
+    .greentext span,
+    .pinktext span {
+        font-size: 1rem;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .scroll {
+        font-size: 1.2rem;
+    }
+
+    .text {
+        font-size: 1.5rem;
+    }
+
 }
 
 @media only screen and (min-width: 768px) {}
