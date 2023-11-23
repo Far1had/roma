@@ -14,15 +14,16 @@
     font-family: "Mr Dafoe";
     src: url(../fonts/Mr_Dafoe/);
 }
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
-
-
+.main-flex {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
 .mainPic {
     background-image: url(../img/cleo-topper.jpg);
     background-position: center;
@@ -33,7 +34,6 @@
     flex-direction: column;
     width: 100%;
 }
-
 nav {
     display: flex;
     justify-content: flex-end;
@@ -41,17 +41,14 @@ nav {
     margin-right: 10vw;
     margin-top: 12px;
 }
-
 img {
     width: 100px;
     height: 100px;
 }
-
 .navPic {
     height: 20px;
     width: 20px;
 }
-
 nav a {
     color: #fff;
     text-align: right;
@@ -60,7 +57,6 @@ nav a {
     font-weight: 400;
     text-decoration-color: rgba(231, 188, 14, 1);
 }
-
 .title {
     color: #fff;
     font-family: "Inter";
@@ -75,10 +71,7 @@ nav a {
     flex-direction: column;
     width: 19.625rem;
     height: 45rem;
-
-
 }
-
 .scroll {
     color: #E7BC0E;
     font-family: "Mr Dafoe";
@@ -90,7 +83,6 @@ nav a {
     margin-left: 2.5rem;
     margin-top: -15.5rem;
 }
-
 .text {
     color: #6BC1A3;
     font-family: Santio;
@@ -107,10 +99,7 @@ nav a {
 
 .text span {
     color: white;
-
 }
-
-
 
 .yellow,
 .pink,
@@ -132,30 +121,22 @@ nav a {
     font-size: 8.688rem;
     font-weight: 700;
     margin-top: 1rem;
-
 }
-
 .pink h1 {
     color: #cb9186;
     font-family: Santio;
     font-size: 5.975rem;
     font-weight: 700;
-
 }
-
 .green h1 {
     color: #6BC1A3;
     font-family: Santio;
     font-size: 6.938rem;
     font-weight: 700;
-
 }
-
 .blue p {
     margin-top: 10rem;
 }
-
-
 .yellowtext,
 .pinktext,
 .greentext,
@@ -167,21 +148,15 @@ nav a {
     font-weight: 700;
     width: 30rem;
 }
-
-
 .yellowtext {
     color: #E7BC0E;
 }
-
 .pinktext {
     color: #CB91B6;
 }
-
 .greentext {
     color: #6BC1A3;
 }
-
-
 .yellowtext span,
 .pinktext span,
 .greentext span {
@@ -191,7 +166,6 @@ nav a {
     font-weight: 700;
     background-color: rgba(51, 51, 51, 0.04);
 }
-
 .bluetext {
     color: #7EB8E1;
     font-family: Santio;
@@ -199,17 +173,12 @@ nav a {
     font-weight: 700;
     line-height: 139.773%;
 }
-
 .bluetext span {
     color: white;
     background-color: rgba(51, 51, 51, 0.04);
 }
-
 .smallPic {
-
-
 }
-
 .smallPic img {
     width: 100%;
     height: 100%;
@@ -217,13 +186,9 @@ nav a {
     background-position: center;
     background-repeat: no-repeat;
 }
-
 footer {
-    background: black;
-
-    
+    background: black; 
 }
-
 .footertext {
     margin: 15vh 60vw 3vh 20vw;
     color: #FFF;
@@ -231,8 +196,18 @@ footer {
     font-size: 2.938rem;
     font-weight: 700;
 }
-
-footer a {
+.footer a {
+    margin: 0 0 0 20vw;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: black;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.a-class {
     margin: 0 0 0 20vw;
     padding: 10px;
     border: 1px solid white;
@@ -252,10 +227,27 @@ footer a {
     font-size: 0.8rem;
     font-weight: 400;
 }
-
-.inspired span {
+.inspire span {
+    
+    color: white;
     color: #6BC1A3;
     font-family: Inter;
     font-size: 0.8rem;
     font-weight: 400;
+}
+footer p {
+    color: white;
+    text-align: left;
+    font-family: Roboto;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+    
+    
+}
+        
 }
