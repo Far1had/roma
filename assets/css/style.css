@@ -96,7 +96,7 @@ nav a {
     margin: 30vh 30vw 0 20vw;
     margin-top: 7rem;
     flex-direction: column;
-    width: 16.625rem;
+    width: 14.625rem;
     height: 26.063rem;
 }
 
@@ -147,7 +147,7 @@ nav a {
 }
 
 .blue p {
-    margin-top: 5rem;
+    margin-top: 10rem;
 }
 
 
@@ -160,7 +160,7 @@ nav a {
     font-family: Santio;
     font-size: 3.138rem;
     font-weight: 700;
-    width: 40rem;
+    width: 30rem;
 }
 
 
@@ -206,6 +206,7 @@ nav a {
     background-image: url(../img/see.png);
     background-position: center;
     background-repeat: no-repeat;
+
 
 }
 
